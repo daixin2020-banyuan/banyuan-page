@@ -2,14 +2,15 @@
     padding: 0 ;
     margin: 0;
 }
-.red{
-    margin-right: 14px;
-    font-size: 14px;
-    cursor: pointer;
-    text-align: center;
-    outline: none;
-    color: tomato;
+
+        
+.on{
+    color: rgb(238, 186, 54) !important;
 }
+/* .preload{
+    display: none !important;
+} */
+
 
 body{
     display: flex;
@@ -29,6 +30,7 @@ html ,body{
     align-items: center;
     /* background: transparent; */
     transition: all 0.5s;
+    position: fixed;
 }
 .scroll{
     width: 100%;
@@ -70,7 +72,7 @@ html ,body{
     color: rgb(242, 243, 240);
 }
 .menu-details:hover{
-    color:rgb(238, 186, 54);;
+    color:rgb(238, 186, 54);
 }
 .bg-container{
     height: 550px;
@@ -131,7 +133,7 @@ html ,body{
 
 .hearder-title{
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 100px;
     text-align: center;
     font-family:'Fira Sans',sans-serif;
     font-size: 35px;
